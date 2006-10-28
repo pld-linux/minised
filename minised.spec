@@ -1,5 +1,5 @@
-Summary:	minised - a smaller, cheaper, faster SED implementation
-Summary(pl):	minised - mniejsza, tañsza, szybsza implementacja SED-a
+Summary:	minised - a smaller, cheaper, faster sed implementation
+Summary(pl):	minised - mniejsza, tañsza, szybsza implementacja sed-a
 Name:		minised
 Version:	1.12
 Release:	0.1
