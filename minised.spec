@@ -1,5 +1,6 @@
+# TODO: optflags
 Summary:	minised - a smaller, cheaper, faster sed implementation
-Summary(pl):	minised - mniejsza, tañsza, szybsza implementacja sed-a
+Summary(pl):	minised - mniejsza, tañsza, szybsza implementacja seda
 Name:		minised
 Version:	1.12
 Release:	0.1
@@ -15,7 +16,7 @@ minised is a minimalistic and fast sed implementation for small
 systems and embedded use.
 
 %description -l pl
-minised jest minimalistyczn± i szybk± implementacj± sed-a dla ma³ych
+minised jest minimalistyczn± i szybk± implementacj± seda dla ma³ych
 systemów i zastosowañ w systemach osadzonych.
 
 %prep
@@ -28,7 +29,7 @@ systemów i zastosowañ w systemach osadzonych.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{,%{_bindir},%{_mandir}/man1}
 install minised $RPM_BUILD_ROOT%{_bindir}
-install minised.1 $RPM_BUILD_ROOT%{_mandir}/man1/
+install minised.1 $RPM_BUILD_ROOT%{_mandir}/man1
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -38,5 +39,3 @@ rm -rf $RPM_BUILD_ROOT
 %doc README BUGS
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*
-
-#%{_examplesdir}/%{name}-%{version}
