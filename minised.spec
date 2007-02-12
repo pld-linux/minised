@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	minised - a smaller, cheaper, faster sed implementation
-Summary(pl):	minised - mniejsza, tañsza, szybsza implementacja seda
+Summary(pl.UTF-8):   minised - mniejsza, taÅ„sza, szybsza implementacja seda
 Name:		minised
 Version:	1.12
 Release:	0.1
@@ -15,9 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 minised is a minimalistic and fast sed implementation for small
 systems and embedded use.
 
-%description -l pl
-minised jest minimalistyczn± i szybk± implementacj± seda dla ma³ych
-systemów i zastosowañ w systemach osadzonych.
+%description -l pl.UTF-8
+minised jest minimalistycznÄ… i szybkÄ… implementacjÄ… seda dla maÅ‚ych
+systemÃ³w i zastosowaÅ„ w systemach osadzonych.
 
 %prep
 %setup -q
