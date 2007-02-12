@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	minised - a smaller, cheaper, faster sed implementation
-Summary(pl.UTF-8):   minised - mniejsza, tańsza, szybsza implementacja seda
+Summary(pl.UTF-8):	minised - mniejsza, tańsza, szybsza implementacja seda
 Name:		minised
 Version:	1.12
 Release:	0.1
