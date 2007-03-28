@@ -8,7 +8,7 @@ License:	GPL
 Group:		Applications/Text
 Source0:	http://dl.exactcode.de/oss/minised/%{name}-%{version}.tar.gz
 # Source0-md5:	ea532e8cb043618be69fd3e7fb9a36f3
-URL:		http://www.exactcode.de/oss/minised/
+URL:		http://www.exactcode.de/site/open_source/minised/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
