@@ -1,12 +1,12 @@
 Summary:	minised - a smaller, cheaper, faster sed implementation
 Summary(pl.UTF-8):	minised - mniejsza, tańsza, szybsza implementacja seda
 Name:		minised
-Version:	1.12
+Version:	1.13
 Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	http://dl.exactcode.de/oss/minised/%{name}-%{version}.tar.gz
-# Source0-md5:	ea532e8cb043618be69fd3e7fb9a36f3
+# Source0-md5:	2a43b1bbf1654ef7fab9d8c4f6c979a1
 URL:		http://www.exactcode.de/site/open_source/minised/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
